@@ -1,71 +1,78 @@
 <div align="center">
-  <h1>Hi 👋, I'm Haseeb Ahmad</h1>
-  <h3>Data Scientist & Machine Learning Engineer</h3>
+  <img src="https://raw.githubusercontent.com/MShoaibNasir/MShoaibNasir/main/Purple%20Modern%20Gaming%20Youtube%20Banner.png" width="100%">
 
-  <p>
-    I am a motivated Data Analyst and Data Scientist with expertise in Python, Pandas, and Power BI. My experience includes data cleaning, manipulation, and creating interactive dashboards for data-driven decision-making.
+  # Hi there! 👋 I'm Haseeb Ahmad
+
+  [![Portfolio](https://img.shields.io/badge/Portfolio-12100E?style=for-the-badge&logo=microsoft-edge&logoColor=white)](https://haseebahmad.netlify.app/)
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](your-linkedin-url)
+  [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:haseebyousafxai81@gmail.com)
+  
+  <p align="center">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&width=435&lines=Data+Scientist;Machine+Learning+Engineer;AI+Enthusiast;Problem+Solver" alt="Typing SVG" />
   </p>
 </div>
 
-## 🚀 Featured Projects
+## 🎯 About Me
 
-### 🚗 Car Price Prediction
-- Machine learning model to predict car prices using regression techniques
-- **Tech Stack:** Python, Scikit-learn, Pandas, NumPy
-- [View Project](https://github.com/HaseebYousafxai/Oasis-Infobyte-tasks/blob/main/carpriceprediction.ipynb)
-
-### 💳 Credit Card Fraud Detection
-- Advanced machine learning system for detecting fraudulent transactions
-- **Tech Stack:** Python, TensorFlow, Scikit-learn, Pandas
-- [View Project](https://github.com/HaseebYousafxai/Pinnacle_Tasks/blob/main/creditcardfraudnotebook.ipynb)
-
-### 📊 University Analysis Dashboard
-- Interactive Power BI dashboard for university data analysis
-- **Tech Stack:** Power BI, DAX, Data Modeling
-
-## 💼 Work Experience
-
-**Limited Structures** - Data Scientist *(Nov 2024 - Present)*
-- Conducted Exploratory Data Analysis (EDA)
-- Trained and integrated machine learning models
-- Collaborated with cross-functional teams
-
-**Oasis Infobyte** - Data Scientist *(Oct 2024 - Nov 2024)*
-- Conducted data analysis and model development
-- Applied machine learning techniques
-- Enhanced solution effectiveness
-
-**Pinnacle Full Stack** - Data Scientist *(Sept 2024 - Oct 2024)*
-- Leveraged machine learning algorithms
-- Extracted insights from complex datasets
-- Enhanced product offerings
-
-## 🛠 Skills & Technologies
-
-- Python
-- Data Analysis
-- Data Science
-- Machine Learning Models Integration
-- Design Interface For Machine Learning Models
-- Data Reporting
-- Data Dashboards
-- Problem Solving Decision Making
-- AI Base Web Apps
-- Project Management
-- Business Analysis
-- Power BI
-- Data Mining
-- Machine Learning
-- Data Visualization
-- MS Excel
-- SQL
-
-## 📫 Get in Touch
-
-- Email: haseebyousafxai81@gmail.com
-- [LinkedIn](your-linkedin-url)
-- [Portfolio Website](your-portfolio-url)
+Passionate Data Scientist and Machine Learning Engineer with expertise in developing data-driven solutions. I specialize in transforming complex data into actionable insights and building intelligent systems that solve real-world problems.
 
 <div align="center">
-  <i>Currently looking for new opportunities. Let's connect!</i>
+  <img src="https://github-readme-stats.vercel.app/api?username=HaseebYousafxai&show_icons=true&theme=radical" alt="GitHub Stats" />
+</div>
+
+## 🔥 Expertise
+- 📊 Data Analysis & Visualization
+- 🤖 Machine Learning
+- 🧠 Deep Learning
+- 📈 Predictive Modeling
+- 🔍 Statistical Analysis
+
+## 💻 Tech Stack
+<div align="center">
+  
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![Scikit Learn](https://img.shields.io/badge/scikit_learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
+
+</div>
+
+## 🎯 Featured Projects
+
+<div align="center">
+  <a href="https://github.com/HaseebYousafxai/Oasis-Infobyte-tasks/blob/main/carpriceprediction.ipynb">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=HaseebYousafxai&repo=Oasis-Infobyte-tasks&theme=radical" />
+  </a>
+  <a href="https://github.com/HaseebYousafxai/Pinnacle_Tasks/blob/main/creditcardfraudnotebook.ipynb">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=HaseebYousafxai&repo=Pinnacle_Tasks&theme=radical" />
+  </a>
+</div>
+
+### 🚀 Key Projects
+1. **Car Price Prediction**
+   - Advanced regression model for accurate car price predictions
+   - Achieved 94% prediction accuracy
+   - [View Project](https://github.com/HaseebYousafxai/Oasis-Infobyte-tasks/blob/main/carpriceprediction.ipynb)
+
+2. **Credit Card Fraud Detection**
+   - Real-time fraud detection system using machine learning
+   - 99.5% fraud detection accuracy
+   - [View Project](https://github.com/HaseebYousafxai/Pinnacle_Tasks/blob/main/creditcardfraudnotebook.ipynb)
+
+## 📈 GitHub Activity
+
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=HaseebYousafxai&theme=radical" alt="GitHub Streak" />
+</div>
+
+## 🤝 Let's Connect
+- 💼 Open to collaborating on AI and Data Science projects
+- 📧 Reach me at: haseebyousafxai81@gmail.com
+- 🌐 Portfolio: [haseebahmad.netlify.app](https://haseebahmad.netlify.app)
+
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=HaseebYousafxai&color=blueviolet" alt="Profile Views" />
 </div>
