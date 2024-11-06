@@ -36,7 +36,6 @@ Passionate Data Scientist and Machine Learning Engineer with expertise in develo
 ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
-![Excel](https://img.shields.io/badge/Machine_Learning-217346?style=for-the-badge&logo=machine-learning&logoColor=white)
 
 </div>
 
