@@ -7,7 +7,7 @@
   [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:haseebyousafxai81@gmail.com) 
   
   <p align="center">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&width=435&lines=Data+Scientist;Machine+Learning+Engineer;AI+Enthusiast;Problem+Solver" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&width=435&lines=Data+Scientist;Machine+Learning+Engineer;AI+Enthusiast;Data+Analyst;Software+Engineer" alt="Typing SVG" />
   </p>
 </div>
 
