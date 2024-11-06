@@ -4,7 +4,7 @@
 
   [![Portfolio](https://img.shields.io/badge/Portfolio-12100E?style=for-the-badge&logo=microsoft-edge&logoColor=white)](https://haseebahmad.netlify.app/)
   [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)]([your-linkedin-url](https://www.linkedin.com/in/haseebahmadiuse/))
-  [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:haseebyousafxai81@gmail.com)
+  [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:haseebyousafxai81@gmail.com) 
   
   <p align="center">
     <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&width=435&lines=Data+Scientist;Machine+Learning+Engineer;AI+Enthusiast;Problem+Solver" alt="Typing SVG" />
