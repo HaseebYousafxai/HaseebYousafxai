@@ -72,6 +72,6 @@ Passionate Data Scientist and Machine Learning Engineer with expertise in develo
 - 📧 Reach me at: haseebyousafxai81@gmail.com
 - 🌐 Portfolio: [haseebahmad.netlify.app](https://haseebahmad.netlify.app)
 
-<div align="center">
+<div align="center"> 
   <img src="https://komarev.com/ghpvc/?username=HaseebYousafxai&color=blueviolet" alt="Profile Views" />
 </div>
