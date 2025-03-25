@@ -3,7 +3,7 @@
   # Hi there! 👋 I'm Haseeb Ahmad 
 
   [![Portfolio](https://img.shields.io/badge/Portfolio-12100E?style=for-the-badge&logo=microsoft-edge&logoColor=white)](https://haseebyousafxai.github.io/HaseebYousafxai/)
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)]([your-linkedin-url](https://www.linkedin.com/in/haseebahmadiuse?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app))
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/haseebahmadiuse/)
   [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:haseebyousafxai81@gmail.com) 
   
   <p align="center">
