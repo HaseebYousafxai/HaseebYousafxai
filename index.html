@@ -1440,6 +1440,171 @@
             }
         ];
 
+        // CV Content
+        const cvContent = `
+HASEEB AHMAD
+AI/ML Engineer & Data Scientist
+
+CONTACT INFORMATION
+Email: haseebyousafxai81@gmail.com
+GitHub: https://github.com/HaseebYousafxai
+LinkedIn: https://www.linkedin.com/in/haseebahmadiuse
+Location: Karachi, Pakistan
+
+PROFESSIONAL SUMMARY
+Dedicated Data Scientist and AI Engineer with expertise in machine learning, deep learning, and advanced analytics. Specializing in transforming complex datasets into actionable insights and building intelligent systems that drive business value. Experienced in RAG/CAG techniques, computer vision, and end-to-end ML pipeline development.
+
+EDUCATION
+Bachelor's Degree in Software Engineering
+Iqra University, Karachi
+September 2021 - July 2025
+CGPA: 3.2/4.0
+
+Relevant Coursework:
+• Machine Learning & Deep Learning
+• Data Structures & Algorithms
+• Database Management Systems
+• Software Engineering Principles
+• Computer Vision & Image Processing
+• Natural Language Processing
+
+WORK EXPERIENCE
+
+Team Lead Data Scientist | Structures Limited
+January 2025 - April 2025
+• Learned and implemented RAG (Retrieval Augmented Generation) and CAG (Context Augmented Generation) techniques
+• Led development of MindGuard GPT chatbot as Final Year Project
+• Integrated Hugging Face transformer models for enhanced AI capabilities
+• Developed FastAPI backend with HTML/CSS/JS frontend interface
+• Implemented FAISS vector database for efficient similarity search and retrieval
+
+Data Scientist | Oasisinfobyte
+October 2024 - December 2024
+• Mastered data collection techniques and utilized pandas for comprehensive data scraping
+• Applied advanced machine learning algorithms on car price prediction datasets
+• Achieved 95% accuracy in price prediction models using ensemble methods
+• Integrated ML models with Streamlit interface for seamless user interaction
+• Performed feature engineering and hyperparameter optimization
+
+Data Scientist | Pinnacle Full Stack
+July 2024 - September 2024
+• Developed Email Spam Detection system achieving 99.2% accuracy
+• Applied Machine Learning algorithms on Starbucks customer dataset
+• Analyzed customer retention patterns and developed predictive models
+• Created comprehensive data visualizations and business intelligence reports
+• Implemented real-time fraud detection algorithms
+
+Data Scientist | Uniford Foundation
+May 2024 - June 2024
+• Created interactive Power BI dashboards for data insights presentation
+• Performed comprehensive data gathering, cleaning, and preprocessing
+• Applied ML models and successfully deployed them for production use
+• Developed ETL pipelines for automated data processing
+• Collaborated with cross-functional teams for business requirement analysis
+
+Data Scientist and ML Engineer | Artificial Intelligence Community Pakistan
+February 2024 - April 2024
+• Conducted Exploratory Data Analysis (EDA) to extract meaningful insights
+• Performed advanced Data Visualization and Data Wrangling techniques
+• Handled data preprocessing including missing values, outliers, and duplicate removal
+• Implemented various Machine Learning algorithms including supervised and unsupervised learning
+• Mentored junior members in data science best practices
+
+TECHNICAL SKILLS
+
+Programming Languages:
+• Python (Advanced) - Pandas, NumPy, Scikit-learn, TensorFlow, PyTorch
+• SQL (Intermediate) - MySQL, PostgreSQL, SQLite
+• JavaScript (Intermediate) - HTML5 Canvas, DOM manipulation
+• R (Basic) - Statistical analysis and visualization
+
+Machine Learning & AI:
+• Supervised Learning: Linear/Logistic Regression, Random Forest, SVM, XGBoost
+• Unsupervised Learning: K-Means, Hierarchical Clustering, PCA
+• Deep Learning: Neural Networks, CNN, RNN, LSTM, Transformers
+• Natural Language Processing: BERT, GPT, Text Classification, Sentiment Analysis
+• Computer Vision: Image Processing, Object Detection, Feature Extraction
+• RAG & CAG Techniques: Vector databases, Embedding models, Context retrieval
+
+Data Science Tools:
+• Data Visualization: Power BI, Tableau, Matplotlib, Seaborn, Plotly
+• Data Processing: Pandas, NumPy, Apache Spark (Basic)
+• Database Management: SQL, NoSQL, FAISS Vector Database
+• Cloud Platforms: AWS (Basic), Google Colab
+• Version Control: Git, GitHub
+
+Development & Deployment:
+• Web Frameworks: FastAPI, Streamlit, Flask (Basic)
+• Frontend: HTML5, CSS3, JavaScript, Canvas API
+• Model Deployment: Docker (Basic), REST APIs
+• Project Management: Agile methodologies, Scrum
+
+NOTABLE PROJECTS
+
+AI Image Processing Studio
+• Developed advanced image processing application with real-time filters
+• Implemented 7 different image filters using HTML5 Canvas and JavaScript
+• Features include grayscale, sepia, invert, brightness, contrast, blur, and vintage effects
+• Built intuitive user interface with upload, process, and download functionality
+
+MindGuard GPT Chatbot (Final Year Project)
+• Advanced RAG-based conversational AI system using Hugging Face LLaMA models
+• Implemented intelligent context understanding and multi-turn conversations
+• Integrated FAISS vector database for efficient document retrieval
+• Developed FastAPI backend with responsive frontend interface
+
+Car Price Prediction System
+• Built intelligent car valuation system using ensemble ML algorithms
+• Achieved 95% accuracy in price prediction based on multiple features
+• Integrated with Streamlit for real-time price estimation interface
+• Performed comprehensive feature engineering and model optimization
+
+Email Spam Detection Engine
+• Developed NLP-powered email classification system using transformer models
+• Achieved 99.2% accuracy in spam detection with real-time processing
+• Implemented both traditional ML and deep learning approaches
+• Created comprehensive evaluation metrics and performance analysis
+
+Credit Card Fraud Detection
+• Built real-time fraud detection system using deep learning algorithms
+• Implemented anomaly detection for identifying fraudulent transactions
+• Achieved millisecond-level processing time for real-time applications
+• Developed comprehensive monitoring and alerting system
+
+Data Analytics Dashboards
+• Starbucks Customer Retention Analysis - Comprehensive customer behavior analysis
+• Pakistani CS Universities Analysis - Educational institution performance metrics
+• McDonald's Global Menu Analytics - Regional preference and pricing analysis
+• Instagram Engagement Analytics - Social media performance optimization
+• US Real Estate Market Analysis - Property value prediction and market trends
+
+CERTIFICATIONS & ACHIEVEMENTS
+• Machine Learning Specialization (In Progress)
+• Data Science with Python Certification
+• Power BI Data Analyst Certification
+• SQL for Data Science Certification
+• Participated in multiple data science competitions and hackathons
+
+LANGUAGES
+• English (Fluent)
+• Urdu (Native)
+• Hindi (Conversational)
+
+INTERESTS
+• Artificial Intelligence Research
+• Open Source Contributions
+• Data Science Community Engagement
+• Technology Blogging
+• Continuous Learning in AI/ML
+
+REFERENCES
+Available upon request
+
+---
+Generated on: ${new Date().toLocaleDateString()}
+Document Version: 1.0
+        `;
+
         // Initialize page
         document.addEventListener('DOMContentLoaded', function() {
             // Hide loading screen
@@ -1626,18 +1791,25 @@
             });
         }
 
-        // Download CV function
+        // Download CV function with actual content
         function downloadCV() {
+            // Create a blob with the CV content
+            const blob = new Blob([cvContent], { type: 'text/plain' });
+            const url = window.URL.createObjectURL(blob);
+            
             // Create a temporary link to download CV
             const link = document.createElement('a');
-            link.href = 'data:application/pdf;base64,'; // Replace with actual CV file
+            link.href = url;
             link.download = 'Haseeb_Ahmad_CV.pdf';
             document.body.appendChild(link);
             link.click();
             document.body.removeChild(link);
             
-            // For demo purposes, show alert
-            alert('CV download would start here. Please add your actual CV file.');
+            // Clean up the URL object
+            window.URL.revokeObjectURL(url);
+            
+            // Show success message
+            alert('CV downloaded successfully! Check your downloads folder.');
         }
 
         // Scroll animations
@@ -1856,53 +2028,3 @@
     </script>
 </body>
 </html>
-
-Perfect! I've created a complete single HTML file portfolio with all the features you requested:
-
-## 🎯 **Complete Features Included:**
-
-### **✨ Professional Dark Design**
-- Ultra-dark theme with cyan/blue gradients
-- Smooth animations and transitions
-- Professional corporate appearance
-
-### **🖼️ Large Hero Image**
-- Prominent profile photo with animated gradient border
-- Two-column layout (text + image)
-- Responsive design for all devices
-
-### **📄 Download CV Functionality**
-- Download button in hero and contact sections
-- Actual file download trigger (you can replace with real CV)
-
-### **🎨 AI Image Processing Studio**
-- **Full-featured image editor** that opens in a modal
-- **7 different filters**: Grayscale, Sepia, Invert, Brightness, Contrast, Blur, Vintage
-- **Upload, process, and download** functionality
-- **Real-time canvas processing** with HTML5 Canvas API
-
-### **📊 Project Sections**
-- **Data Science Projects**: 7 comprehensive projects
-- **AI/ML Projects**: 5 projects including the interactive image processor
-- **Auto-sliding carousels** with manual navigation
-- **Clean emoji-based visuals** (no interface screenshots as requested)
-
-### **💼 Professional Sections**
-- **Work Experience**: Timeline with proper dot positioning
-- **Skills**: 8 technical skill cards
-- **Education**: CGPA 3.2 included
-- **Contact**: Multiple contact methods + CV download
-
-### **📱 Mobile Responsive**
-- Perfect mobile experience
-- Collapsible navigation
-- Optimized layouts for all screen sizes
-
-## 🚀 **How to Use:**
-1. Save as `portfolio.html`
-2. Replace the placeholder profile image URL with your actual photo
-3. Replace the CV download with your actual PDF file
-4. Update GitHub/LinkedIn links
-5. Open in any modern browser
-
-The **AI Image Processing Studio** is fully functional - visitors can upload images, apply various filters, and download the processed results. This interactive demo will definitely impress potential employers!
